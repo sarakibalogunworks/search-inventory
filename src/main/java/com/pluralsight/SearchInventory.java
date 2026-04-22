@@ -42,6 +42,11 @@ import java.util.ArrayList;
 
                 String line = bufferedReader.readLine();
 
+                while (line != null) {
+                    String[] parts = line.split("\\|");
+
+                }
+
 
 
             }
