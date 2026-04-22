@@ -40,6 +40,10 @@ import java.util.ArrayList;
                 FileReader fileReader = new FileReader("inventory.csv");
                 BufferedReader bufferedReader = new BufferedReader(fileReader);
 
+                String line = bufferedReader.readLine();
+
+
+
             }
 
             return inventory;
